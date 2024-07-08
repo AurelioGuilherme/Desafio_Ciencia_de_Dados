@@ -4,19 +4,22 @@ Fui alocado em um time contratado por um estúdio de Hollywood chamado PProducti
 
 ## Pré-requisitos
 
-- [Git](https://git-scm.com/)
-- [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
-- [Visual Studio Code](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/) - para controle de versão
+- [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) - para gerenciamento de ambientes
+- [Visual Studio Code](https://code.visualstudio.com/) - como IDE preferencial
 
 ## Clonando o Repositório
 
-Para clonar o repositório, abra o terminal e execute o seguinte comando:
+Para iniciar, clone o repositório executando os seguintes comandos no terminal:
+
 
 ```bash
 git clone https://github.com/AurelioGuilherme/Desafio_Ciencia_de_Dados.git
+cd Desafio_Ciencia_de_Dados
 ```
+
 ## Ambiente virtual
-Crie um ambiente virtual executando o seguinte comando:
+Configure um ambiente virtual executando o seguinte comando abaixo para isolar as dependências do projeto:
 
 ```bash
 conda create -p venv python==3.11.9
@@ -29,7 +32,7 @@ conda activate venv/
 ```
 
 ## Instalando as Dependências
-Instale as bibliotecas definidas no requirements.txt com seguinte comando no terminal:
+As bibliotecas necessárias para este projeto estão listadas no arquivo `requirements.txt`. Para instalar todas as dependências, execute:
 
 ```bash
 pip install -r requirements.txt
