@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ```
 
 ## Execução do Projeto
-O projeto está sendo desenvolvido em um Jupyter Notebook
+O projeto está sendo desenvolvido em um Jupyter Notebook com o nome LH_CD_AURELIO.ipynb
 
 
 
